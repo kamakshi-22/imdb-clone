@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route index element={<Home />} />
+          <Route path='/imdb-clone' element={<Home />} />
           <Route path="movie/:id" element={<Movie/>} />
           <Route path="movies/:type" element={<MovieList />} />
           <Route path="/*" element={<h1>Error</h1>} />
